@@ -71,40 +71,36 @@ y_train_scaled = scaler_y.fit_transform(y_train.values.reshape(-1, 1))
 y_test_scaled = scaler_y.transform(y_test.values.reshape(-1, 1))
 
 # %%
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error, r2_score
+from xgboost import XGBRegressor
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from bayes_opt import BayesianOptimization
 from sklearn.model_selection import cross_val_score
 import numpy as np
 
-def cv_score_rfr(n_estimators, max_depth, min_samples_split, min_samples_leaf):
-    model = RandomForestRegressor(n_estimators=int(n_estimators), 
-                                  max_depth=int(max_depth), 
-                                  min_samples_split=int(min_samples_split), 
-                                  min_samples_leaf=int(min_samples_leaf), 
-                                  random_state=42
-    )
+def cv_score_xgb(n_estimators, max_depth, min_child_weight, gamma, subsample, colsample_bytree, learning_rate):
+    model = XGBRegressor(n_estimators=int(n_estimators), 
+                         max_depth=int(max_depth), 
+                         min_child_weight=min_child_weight,
+                         gamma=gamma,
+                         subsample=subsample,
+                         colsample_bytree=colsample_bytree,
+                         learning_rate=learning_rate, 
+                         random_state=42)
     
     scores = cross_val_score(model, X_train_expanded, y_train_expanded, cv=5, scoring='neg_mean_squared_error')
-    predictions = model.predict(X_test_reduced)
     return np.mean(scores)
-
-pbounds = {
-    'n_estimators': (10, 1000),
-    'max_depth': (1, 50),
-    'min_samples_split': (2, 10),
-    'min_samples_leaf': (1, 10)
-}
-
-optimizer = BayesianOptimization(f=cv_score_rfr, pbounds=pbounds, random_state=42)
-optimizer.maximize(init_points=50, n_iter=500)
-
 # %%
 # Initialize best metrics and best point
 best_rmse = float('inf')
+best_mae = float('inf')
 best_r2 = float('-inf')
 best_point_rmse = None
+best_point_mae = None
 best_point_r2 = None
+
+logs_df = pd.DataFrame(columns=['Data Order', 'Temperature', 'pCH4_per_pO2', 'Contact time',
+                                'R2', 'RMSE', 'MAE', 'n_estimators', 'max_depth', 'min_child_weight',
+                                'gamma', 'subsample', 'colsample_bytree', 'learning_rate'])
 
 # 외삽 강도가 1인 데이터 포인트 선택
 extrapolation_1_indices = test_df[test_df['Extrapolation Strength'] == 1].index
@@ -115,39 +111,76 @@ X_test_original = X_test_scaled.copy()
 y_test_original = y_test_scaled.copy()
 
 sample_ranking_rmse = []
+sample_ranking_mae = []
 sample_ranking_r2 = []
 
 # 반복적으로 외삽 강도가 1인 데이터 포인트를 학습 데이터에 추가하고 테스트 데이터에서 제거
 for index in extrapolation_1_indices:
 
+    selected_data_point_X = X_test_original[index]
+    selected_data_point_y = y_test_original[index]
+
     # 선택한 데이터 포인트를 학습 데이터에 추가
-    X_train_expanded = np.vstack([X_train_original, X_test_original[index]])
-    y_train_expanded = np.vstack([y_train_original, y_test_original[index]])
+    X_train_expanded = np.vstack([X_train_original, selected_data_point_X])
+    y_train_expanded = np.vstack([y_train_original, selected_data_point_y])
 
     # 동일한 데이터 포인트를 테스트 데이터에서 제거
     X_test_reduced = np.delete(X_test_original, index, axis=0)
     y_test_reduced = np.delete(y_test_original, index, axis=0)
 
-    pbounds = {'n_estimators': (10, 1000),'max_depth': (1, 50),'min_samples_split': (2, 10), 'min_samples_leaf': (1, 10)}
-    optimizer = BayesianOptimization(f=cv_score_rfr, pbounds=pbounds, random_state=42)
-    optimizer.maximize(init_points=10, n_iter=50)
+    pbounds = {'n_estimators': (10, 1000), 'max_depth': (1, 50), 'min_child_weight': (1, 10), 'gamma': (0, 10), 'subsample': (0.5, 1),'colsample_bytree': (0.5, 1),'learning_rate': (0.0001, 0.1)}
+    optimizer = BayesianOptimization(f=cv_score_xgb, pbounds=pbounds, random_state=42)
+    optimizer.maximize(init_points=10, n_iter=100)
 
     best_params = optimizer.max['params']
 
-    model = RandomForestRegressor(n_estimators=int(best_params['n_estimators']),
-                                  max_depth=int(best_params['max_depth']),
-                                  min_samples_split=int(best_params['min_samples_split']),
-                                  min_samples_leaf=int(best_params['min_samples_leaf']),
-                                  random_state=42)
+    model = XGBRegressor(n_estimators=int(best_params['n_estimators']), 
+                         max_depth=int(best_params['max_depth']), 
+                         min_child_weight=best_params['min_child_weight'],
+                         gamma=best_params['gamma'],
+                         subsample=best_params['subsample'],
+                         colsample_bytree=best_params['colsample_bytree'],
+                         learning_rate=best_params['learning_rate'], 
+                         random_state=42)
     
     model.fit(X_train_expanded, y_train_expanded.ravel())
 
     predictions = model.predict(X_test_reduced).flatten()
-
     rmse = np.sqrt(mean_squared_error(y_test_reduced, predictions))
+    mae = mean_absolute_error(y_test_reduced, predictions)
     r2 = r2_score(y_test_reduced, predictions)
 
+    logs_df = logs_df.append({'Data Order': index,
+                              'Temperature': selected_data_point_X[0],
+                              'pCH4_per_pO2': selected_data_point_X[1],
+                              'Contact time': selected_data_point_X[2],
+                              'R2': r2, 'RMSE': rmse, 'MAE': mae,
+                              'n_estimators': int(best_params['n_estimators']),
+                              'max_depth': int(best_params['max_depth']),
+                              'min_child_weight': best_params['min_child_weight'],
+                              'gamma': best_params['gamma'],
+                              'subsample': best_params['subsample'],
+                              'colsample_bytree': best_params['colsample_bytree'],
+                              'learning_rate': best_params['learning_rate']},
+                              ignore_index=True)
+    new_row = pd.DataFrame({'Data Order': [index],
+                            'Temperature': [selected_data_point_X[0]],
+                            'pCH4_per_pO2': [selected_data_point_X[1]],
+                            'Contact time': [selected_data_point_X[2]],
+                            'R2': [r2],
+                            'RMSE': [rmse],
+                            'MAE': [mae],
+                            'n_estimators': [int(best_params['n_estimators'])],
+                            'max_depth': [int(best_params['max_depth'])],
+                            'min_child_weight': [best_params['min_child_weight']],
+                            'gamma': [best_params['gamma']],
+                            'subsample': [best_params['subsample']],
+                            'colsample_bytree': [best_params['colsample_bytree']],
+                            'learning_rate': [best_params['learning_rate']]})
+    logs_df = pd.concat([logs_df, new_row], ignore_index=True)
+
     sample_ranking_rmse.append((index, rmse))
+    sample_ranking_mae.append((index, mae))
     sample_ranking_r2.append((index, r2))
 
     # Check if thist point is the best
@@ -155,8 +188,26 @@ for index in extrapolation_1_indices:
         best_point_rmse = index
         best_rmse = rmse
 
-    sample_ranking_rmse.append(index, rmse)
-    sample_ranking_r2.append(index, r2)
+    if mae < best_mae:
+        best_point_mae = index
+        best_mae = mae
 
-    # 성능 결과 출력
-    print(f"RMSE: {rmse}, R2: {r2}")
+    if r2 > best_r2:
+        best_point_r2 = index
+        best_r2 = r2
+ 
+# Sort the sample rankings
+sample_ranking_rmse = sorted(sample_ranking_rmse, key=lambda x: x[1])
+sample_ranking_mae = sorted(sample_ranking_mae, key=lambda x: x[1])
+sample_ranking_r2 = sorted(sample_ranking_r2, key=lambda x: x[1], reverse=True)
+
+# Display the sample rankings based on RMSE and R2
+print("Sample ranking based on RMSE:", sample_ranking_rmse)
+print("Sample ranking based on MAE:", sample_ranking_mae)
+print("Sample ranking based on R2:", sample_ranking_r2)
+print(f"Best point based on RMSE: {best_point_rmse}")
+print(f"Best point based on MAE: {best_point_mae}")
+print(f"Best point based on R2: {best_point_r2}")
+
+print(logs_df)
+# %%
