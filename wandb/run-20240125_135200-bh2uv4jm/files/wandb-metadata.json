@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.0",
+    "heartbeatAt": "2024-01-25T04:52:00.919794",
+    "startedAt": "2024-01-25T04:52:00.136954",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\jsjon\\OneDrive\\SKKU\\\uc5f0\uad6c\uc790\ub8cc\\Catalyst AI_rev\\New Code\\Data_extrapolative copy.py",
+    "codePathLocal": "New Code\\Data_extrapolative copy.py",
+    "codePath": "New Code\\Data_extrapolative copy.py",
+    "git": {
+        "remote": "https://github.com/jsjong98/Catalyst-AI_rev.git",
+        "commit": "ee9216edc8331423bb868a03a51cf0fefcb1f5e5"
+    },
+    "email": null,
+    "root": "C:/Users/jsjon/OneDrive/SKKU/\uc5f0\uad6c\uc790\ub8cc/Catalyst AI_rev",
+    "host": "BOOK-TBRHKIP8FQ",
+    "username": "jsjon",
+    "executable": "C:\\Users\\jsjon\\anaconda3\\envs\\analysis\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2100.0,
+        "min": 0.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 933.2246055603027,
+            "used": 206.85076904296875
+        }
+    },
+    "memory": {
+        "total": 31.635540008544922
+    }
+}

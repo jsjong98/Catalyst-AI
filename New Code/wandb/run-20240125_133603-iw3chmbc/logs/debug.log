@@ -1,0 +1,46 @@
+2024-01-25 13:36:03,036 INFO    MainThread:41296 [wandb_setup.py:_flush():76] Current SDK version is 0.16.2
+2024-01-25 13:36:03,037 INFO    MainThread:41296 [wandb_setup.py:_flush():76] Configure stats pid to 41296
+2024-01-25 13:36:03,037 INFO    MainThread:41296 [wandb_setup.py:_flush():76] Loading settings from C:\Users\jsjon\.config\wandb\settings
+2024-01-25 13:36:03,037 INFO    MainThread:41296 [wandb_setup.py:_flush():76] Loading settings from c:\Users\jsjon\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\settings
+2024-01-25 13:36:03,037 INFO    MainThread:41296 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-25 13:36:03,037 INFO    MainThread:41296 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'New Code\\Data_extrapolative copy.py', 'program_abspath': 'c:\\Users\\jsjon\\OneDrive\\SKKU\\연구자료\\Catalyst AI_rev\\New Code\\Data_extrapolative copy.py', 'program': 'c:\\Users\\jsjon\\OneDrive\\SKKU\\연구자료\\Catalyst AI_rev\\New Code\\Data_extrapolative copy.py'}
+2024-01-25 13:36:03,038 INFO    MainThread:41296 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-01-25 13:36:03,038 INFO    MainThread:41296 [wandb_init.py:_log_setup():526] Logging user logs to c:\Users\jsjon\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240125_133603-iw3chmbc\logs\debug.log
+2024-01-25 13:36:03,038 INFO    MainThread:41296 [wandb_init.py:_log_setup():527] Logging internal logs to c:\Users\jsjon\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240125_133603-iw3chmbc\logs\debug-internal.log
+2024-01-25 13:36:03,038 INFO    MainThread:41296 [wandb_init.py:init():566] calling init triggers
+2024-01-25 13:36:03,038 INFO    MainThread:41296 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-01-25 13:36:03,038 INFO    MainThread:41296 [wandb_init.py:init():591] re-initializing run, found existing run on stack: 5ubcgrwi
+2024-01-25 13:36:03,167 ERROR   MainThread:41296 [wandb_init.py:init():1204] error
+Traceback (most recent call last):
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 601, in init
+    latest_run.finish()
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 420, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 1953, in finish
+    return self._finish(exit_code, quiet)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 1961, in _finish
+    tel.feature.finish = True
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\lib\telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 758, in _telemetry_callback
+    self._telemetry_flush()
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 769, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "c:\Users\jsjon\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionResetError: [WinError 10054] 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
