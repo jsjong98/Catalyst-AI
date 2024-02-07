@@ -59,7 +59,7 @@ unique_extrapolating_vars_2 = extrapolation_2_df['Extrapolating Variables'].valu
 
 unique_extrapolating_vars_1, unique_extrapolating_vars_2
 # %%
-test_df[test_df['Extrapolation Strength'] == 3].to_csv('extrapolative_3.csv')
+test_df[test_df['Extrapolation Strength'] == 1].to_csv('extrapolative_1.csv')
 # %%
 import matplotlib.pyplot as plt
 
@@ -108,6 +108,49 @@ X_test_scaled = scaler_X.transform(X_test)
 
 y_train_scaled = scaler_y.fit_transform(y_train.values.reshape(-1, 1))
 y_test_scaled = scaler_y.transform(y_test.values.reshape(-1, 1))
+
+# %%
+from xgboost import XGBRegressor
+import optuna
+import os
+import wandb
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
+from sklearn.model_selection import cross_val_score
+import numpy as np
+
+X_train_original = X_train_scaled.copy()
+y_train_original = y_train_scaled.copy()
+X_test_original = X_test_scaled.copy()
+y_test_original = y_test_scaled.copy()
+
+selected_data_point_X = X_test_original[7778]
+selected_data_point_y = y_test_original[7778]
+
+X_train_expanded = np.vstack([X_train_original, selected_data_point_X])
+y_train_expanded = np.vstack([y_train_original, selected_data_point_y])
+
+X_test_reduced = np.delete(X_test_original, 7778, axis=0)
+y_test_reduced = np.delete(y_test_original, 7778, axis=0)
+
+best_params = {'n_estimators': 936, 'max_depth': 2, 'min_child_weight': 4.8137748444094, 'gamma': 0.0108624992226107, 'subsample': 0.595477457861828, 'colsample_bytree': 0.82919448840144, 'learning_rate': 0.0367718266424177}
+
+model = XGBRegressor(n_estimators=int(best_params['n_estimators']), 
+                     max_depth=int(best_params['max_depth']), 
+                     min_child_weight=best_params['min_child_weight'],
+                     gamma=best_params['gamma'],
+                     subsample=best_params['subsample'],
+                     colsample_bytree=best_params['colsample_bytree'],
+                     learning_rate=best_params['learning_rate'], 
+                     random_state=42)
+
+model.fit(X_train_expanded, y_train_expanded.ravel())
+
+predictions = model.predict(X_test_reduced).flatten()
+rmse = np.sqrt(mean_squared_error(y_test_reduced, predictions))
+mae = mean_absolute_error(y_test_reduced, predictions)
+r2 = r2_score(y_test_reduced, predictions)
+
+# %%
 
 # %%
 from xgboost import XGBRegressor
