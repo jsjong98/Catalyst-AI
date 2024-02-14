@@ -75,35 +75,35 @@ from xgboost import XGBRegressor
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 import numpy as np
 
-best_order_3 = 7386
-best_order_2 = 7778
-best_order_1 = 7523
+best_order_3 = 6054
+best_order_2 = 5865
+best_order_1 = 6025
 
 X_train_original = X_train_scaled.copy()
 y_train_original = y_train_scaled.copy()
 X_test_original = X_test_scaled.copy()
 y_test_original = y_test_scaled.copy()
 
-selected_data_point_X = X_test_original[best_order_3]
-selected_data_point_y = y_test_original[best_order_3]
+selected_data_point_X = X_test_original[best_order_2]
+selected_data_point_y = y_test_original[best_order_2]
 
 X_train_expanded = np.vstack([X_train_original, selected_data_point_X])
 y_train_expanded = np.vstack([y_train_original, selected_data_point_y])
 
-X_test_reduced = np.delete(X_test_original, best_order_3, axis=0)
-y_test_reduced = np.delete(y_test_original, best_order_3, axis=0)
+X_test_reduced = np.delete(X_test_original, best_order_2, axis=0)
+y_test_reduced = np.delete(y_test_original, best_order_2, axis=0)
 
-best_params_3 = {'n_estimators': 527, 'max_depth': 2, 'min_child_weight': 6.35670516445723, 'gamma': 0.0319207029438828, 'subsample': 0.666207936133433, 'colsample_bytree': 0.732451312222895, 'learning_rate': 0.0591186824330719}
-best_params_2 = {'n_estimators': 936, 'max_depth': 2, 'min_child_weight': 4.8137748444094, 'gamma': 0.0108624992226107, 'subsample': 0.595477457861828, 'colsample_bytree': 0.82919448840144, 'learning_rate': 0.0367718266424177}
-best_params_1 = {'n_estimators': 893, 'max_depth': 50, 'min_child_weight': 6.690636709, 'gamma': 0.015915062, 'subsample': 0.681697512, 'colsample_bytree': 0.535367949, 'learning_rate': 0.060951398}
+best_params_3 = {'n_estimators': 963, 'max_depth': 14, 'min_child_weight': 7.833799424, 'gamma': 0, 'subsample': 0.5, 'colsample_bytree': 1, 'learning_rate': 0.1}
+best_params_2 = {'n_estimators': 973, 'max_depth': 3, 'min_child_weight': 1, 'gamma': 0, 'subsample': 1, 'colsample_bytree': 1, 'learning_rate': 0.1}
+best_params_1 = {'n_estimators': 881, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0, 'subsample': 0.5, 'colsample_bytree': 1, 'learning_rate': 0.0605364772581403}
 
-model = XGBRegressor(n_estimators=int(best_params_3['n_estimators']), 
-                     max_depth=int(best_params_3['max_depth']), 
-                     min_child_weight=best_params_3['min_child_weight'],
-                     gamma=best_params_3['gamma'],
-                     subsample=best_params_3['subsample'],
-                     colsample_bytree=best_params_3['colsample_bytree'],
-                     learning_rate=best_params_3['learning_rate'], 
+model = XGBRegressor(n_estimators=int(best_params_2['n_estimators']), 
+                     max_depth=int(best_params_2['max_depth']), 
+                     min_child_weight=best_params_2['min_child_weight'],
+                     gamma=best_params_2['gamma'],
+                     subsample=best_params_2['subsample'],
+                     colsample_bytree=best_params_2['colsample_bytree'],
+                     learning_rate=best_params_2['learning_rate'], 
                      random_state=42)
 
 model.fit(X_train_expanded, y_train_expanded.ravel())
