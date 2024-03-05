@@ -1,0 +1,51 @@
+2024-03-05 12:14:26,628 INFO    MainThread:31064 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-05 12:14:26,628 INFO    MainThread:31064 [wandb_setup.py:_flush():76] Configure stats pid to 31064
+2024-03-05 12:14:26,628 INFO    MainThread:31064 [wandb_setup.py:_flush():76] Loading settings from C:\Users\OJH\.config\wandb\settings
+2024-03-05 12:14:26,628 INFO    MainThread:31064 [wandb_setup.py:_flush():76] Loading settings from c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\settings
+2024-03-05 12:14:26,628 INFO    MainThread:31064 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-05 12:14:26,628 INFO    MainThread:31064 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'New Code\\Data_extrapolative_BO_rev.py', 'program_abspath': 'c:\\Users\\OJH\\OneDrive\\SKKU\\연구자료\\Catalyst AI_rev\\New Code\\Data_extrapolative_BO_rev.py', 'program': 'c:\\Users\\OJH\\OneDrive\\SKKU\\연구자료\\Catalyst AI_rev\\New Code\\Data_extrapolative_BO_rev.py'}
+2024-03-05 12:14:26,629 INFO    MainThread:31064 [wandb_init.py:_log_setup():526] Logging user logs to c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121426-ira1md0w\logs\debug.log
+2024-03-05 12:14:26,629 INFO    MainThread:31064 [wandb_init.py:_log_setup():527] Logging internal logs to c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121426-ira1md0w\logs\debug-internal.log
+2024-03-05 12:14:26,629 INFO    MainThread:31064 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000231F9CC11D0>
+2024-03-05 12:14:26,629 INFO    MainThread:31064 [wandb_init.py:init():566] calling init triggers
+2024-03-05 12:14:26,629 INFO    MainThread:31064 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-05 12:14:26,629 INFO    MainThread:31064 [wandb_init.py:init():591] re-initializing run, found existing run on stack: cbx2uslx
+2024-03-05 12:14:26,630 INFO    MainThread:31064 [wandb_run.py:_finish():1970] finishing run jonghwan_oh/Model prediction/cbx2uslx
+2024-03-05 12:14:26,631 INFO    MainThread:31064 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-05 12:14:26,631 INFO    MainThread:31064 [wandb_run.py:_restore():2193] restore
+2024-03-05 12:14:26,631 INFO    MainThread:31064 [wandb_run.py:_restore():2199] restore done
+2024-03-05 12:14:33,549 INFO    MainThread:31064 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-03-05 12:14:33,549 INFO    MainThread:31064 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-03-05 12:14:33,551 INFO    MainThread:31064 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-03-05 12:14:33,594 INFO    MainThread:31064 [wandb_init.py:init():616] starting backend
+2024-03-05 12:14:33,595 INFO    MainThread:31064 [wandb_init.py:init():620] setting up manager
+2024-03-05 12:14:33,598 INFO    MainThread:31064 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-05 12:14:33,599 INFO    MainThread:31064 [wandb_init.py:init():628] backend started and connected
+2024-03-05 12:14:33,607 INFO    MainThread:31064 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-03-05 12:14:33,607 INFO    MainThread:31064 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-05 12:14:33,607 INFO    MainThread:31064 [wandb_init.py:init():720] updated telemetry
+2024-03-05 12:14:33,640 INFO    MainThread:31064 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-05 12:14:35,272 INFO    MainThread:31064 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-05 12:14:35,544 INFO    MainThread:31064 [wandb_run.py:_on_init():2271] got version response 
+2024-03-05 12:14:35,544 INFO    MainThread:31064 [wandb_init.py:init():804] starting run threads in backend
+2024-03-05 12:14:41,464 INFO    MainThread:31064 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-05 12:14:41,464 INFO    MainThread:31064 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-05 12:14:41,464 INFO    MainThread:31064 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-05 12:14:41,464 INFO    MainThread:31064 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-05 12:14:41,465 INFO    MainThread:31064 [wandb_init.py:init():847] run started, returning control to user process
+2024-03-05 12:14:41,467 INFO    MainThread:31064 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-05 12:14:41,467 INFO    MainThread:31064 [wandb_init.py:_pause_backend():437] pausing backend
+2024-03-05 12:14:41,512 INFO    MainThread:31064 [wandb_init.py:_resume_backend():442] resuming backend
+2024-03-05 12:14:41,513 INFO    MainThread:31064 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-05 12:14:41,513 INFO    MainThread:31064 [wandb_init.py:_pause_backend():437] pausing backend
+2024-03-05 12:14:41,526 INFO    MainThread:31064 [wandb_init.py:_resume_backend():442] resuming backend
+2024-03-05 12:14:41,528 INFO    MainThread:31064 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-05 12:14:41,529 INFO    MainThread:31064 [wandb_init.py:_pause_backend():437] pausing backend
+2024-03-05 12:14:41,560 INFO    MainThread:31064 [wandb_init.py:_resume_backend():442] resuming backend
+2024-03-05 12:14:41,564 INFO    MainThread:31064 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-05 12:14:41,564 INFO    MainThread:31064 [wandb_init.py:_pause_backend():437] pausing backend
+2024-03-05 12:14:41,574 INFO    MainThread:31064 [wandb_init.py:_resume_backend():442] resuming backend
+2024-03-05 12:14:41,575 INFO    MainThread:31064 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-05 12:14:41,576 INFO    MainThread:31064 [wandb_init.py:_pause_backend():437] pausing backend
+2024-03-05 12:14:41,591 INFO    MainThread:31064 [wandb_init.py:_resume_backend():442] resuming backend

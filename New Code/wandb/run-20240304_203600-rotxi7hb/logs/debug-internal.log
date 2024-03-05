@@ -1,0 +1,1667 @@
+2024-03-04 20:36:07,153 INFO    StreamThr :2052 [internal.py:wandb_internal():86] W&B internal server running at pid: 2052, started at: 2024-03-04 20:36:07.152633
+2024-03-04 20:36:07,154 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status
+2024-03-04 20:36:07,155 INFO    WriterThread:2052 [datastore.py:open_for_write():87] open: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\run-rotxi7hb.wandb
+2024-03-04 20:36:07,156 DEBUG   SenderThread:2052 [sender.py:send():382] send: header
+2024-03-04 20:36:07,156 DEBUG   SenderThread:2052 [sender.py:send():382] send: run
+2024-03-04 20:36:07,795 INFO    SenderThread:2052 [dir_watcher.py:__init__():211] watching files in: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files
+2024-03-04 20:36:07,795 INFO    SenderThread:2052 [sender.py:_start_run_threads():1136] run started: rotxi7hb with start time 1709552166.464059
+2024-03-04 20:36:07,936 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: check_version
+2024-03-04 20:36:07,936 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: check_version
+2024-03-04 20:36:08,218 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: run_start
+2024-03-04 20:36:08,242 DEBUG   HandlerThread:2052 [system_info.py:__init__():27] System info init
+2024-03-04 20:36:08,242 DEBUG   HandlerThread:2052 [system_info.py:__init__():42] System info init done
+2024-03-04 20:36:08,242 INFO    HandlerThread:2052 [system_monitor.py:start():194] Starting system monitor
+2024-03-04 20:36:08,243 INFO    SystemMonitor:2052 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-04 20:36:08,243 INFO    HandlerThread:2052 [system_monitor.py:probe():214] Collecting system info
+2024-03-04 20:36:08,244 DEBUG   HandlerThread:2052 [system_info.py:probe():151] Probing system
+2024-03-04 20:36:08,256 INFO    SystemMonitor:2052 [interfaces.py:start():190] Started cpu monitoring
+2024-03-04 20:36:08,257 INFO    SystemMonitor:2052 [interfaces.py:start():190] Started disk monitoring
+2024-03-04 20:36:08,257 INFO    SystemMonitor:2052 [interfaces.py:start():190] Started gpu monitoring
+2024-03-04 20:36:08,257 INFO    SystemMonitor:2052 [interfaces.py:start():190] Started memory monitoring
+2024-03-04 20:36:08,282 INFO    SystemMonitor:2052 [interfaces.py:start():190] Started network monitoring
+2024-03-04 20:36:08,282 DEBUG   HandlerThread:2052 [system_info.py:_probe_git():136] Probing git
+2024-03-04 20:36:08,346 DEBUG   HandlerThread:2052 [system_info.py:_probe_git():144] Probing git done
+2024-03-04 20:36:08,346 DEBUG   HandlerThread:2052 [system_info.py:probe():199] Probing system done
+2024-03-04 20:36:08,346 DEBUG   HandlerThread:2052 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-03-04T11:36:08.256117', 'startedAt': '2024-03-04T11:36:00.870897', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/jsjong98/Catalyst-AI_rev.git', 'commit': 'e663ab5cbf1d4326d0f85d88d69f5cfcefa7f6f1'}, 'email': 'jsjong98@gmail.com', 'root': 'C:/Users/OJH/OneDrive/SKKU/연구자료/Catalyst AI_rev', 'host': 'DESKTOP-5024PSV', 'username': 'OJH', 'executable': 'c:\\Users\\OJH\\anaconda3\\python.exe', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'/': {'total': 1862.1967124938965, 'used': 659.8420219421387}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 63.781253814697266}}
+2024-03-04 20:36:08,346 INFO    HandlerThread:2052 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-04 20:36:08,346 INFO    HandlerThread:2052 [system_monitor.py:probe():227] Publishing system info
+2024-03-04 20:36:08,347 DEBUG   HandlerThread:2052 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-04 20:36:08,801 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\conda-environment.yaml
+2024-03-04 20:36:14,333 DEBUG   HandlerThread:2052 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-04 20:36:14,334 INFO    HandlerThread:2052 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-04 20:36:14,334 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:14,334 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-04 20:36:14,334 DEBUG   SenderThread:2052 [sender.py:send():382] send: files
+2024-03-04 20:36:14,334 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-04 20:36:14,342 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-04 20:36:14,343 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: python_packages
+2024-03-04 20:36:14,343 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-04 20:36:14,343 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-04 20:36:14,344 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: stop_status
+2024-03-04 20:36:14,551 DEBUG   SenderThread:2052 [sender.py:send():382] send: telemetry
+2024-03-04 20:36:14,648 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:14,649 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:14,649 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:14,650 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:14,843 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\conda-environment.yaml
+2024-03-04 20:36:14,844 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-metadata.json
+2024-03-04 20:36:14,844 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\requirements.txt
+2024-03-04 20:36:14,844 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:14,963 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:14,964 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:14,964 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:14,965 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:15,612 INFO    wandb-upload_0:2052 [upload_job.py:push():131] Uploaded file C:\Users\OJH\AppData\Local\Temp\tmpsrmp0h35wandb\b41byta2-wandb-metadata.json
+2024-03-04 20:36:15,673 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:15,673 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:15,673 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:15,674 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:15,852 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:16,114 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:16,115 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:16,115 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:16,116 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:16,386 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:16,386 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:16,386 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:16,388 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:16,679 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:16,680 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:16,680 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:16,681 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:16,866 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:16,873 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:16,874 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:16,874 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:16,875 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:16,993 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:16,994 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:16,994 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:16,994 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:17,283 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:17,284 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:17,284 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:17,284 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:17,285 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:17,641 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:17,642 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:17,642 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:17,643 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:17,755 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:17,756 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:17,756 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:17,757 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:17,878 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:17,888 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:17,889 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:17,889 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:17,890 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:18,210 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:18,211 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:18,211 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:18,212 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:18,456 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:18,457 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:18,457 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:18,458 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:18,766 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:18,767 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:18,767 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:18,767 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:18,885 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:19,255 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:19,256 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:19,256 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:19,257 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:19,675 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:19,676 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:19,676 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:19,676 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:19,821 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:19,822 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:19,822 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:19,822 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:19,896 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:20,164 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:20,164 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:20,165 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:20,165 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:20,502 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:20,503 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:20,503 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:20,503 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:20,705 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:20,706 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:20,706 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:20,707 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:20,905 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:20,954 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:20,955 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:20,955 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:20,956 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:21,176 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:21,177 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:21,177 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:21,178 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:21,457 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:21,458 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:21,458 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:21,459 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:21,658 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:21,658 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:21,658 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:21,659 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:21,727 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:21,728 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:21,728 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:21,728 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:21,805 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:21,805 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:21,806 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:21,806 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:21,918 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:22,471 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:22,472 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:22,472 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:22,472 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:22,473 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:22,927 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:22,933 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:22,933 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:22,933 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:22,934 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:23,111 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:23,111 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:23,112 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:23,113 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:23,687 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:23,687 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:23,688 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:23,688 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:23,864 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:23,865 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:23,865 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:23,866 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:23,934 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:23,997 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:23,999 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:23,999 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:24,000 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:24,133 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:24,134 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:24,134 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:24,135 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:24,351 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:24,352 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:24,352 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:24,353 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:24,539 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:24,540 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:24,540 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:24,540 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:24,713 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:24,713 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:24,713 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:24,714 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:24,940 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:24,958 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:24,959 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:24,959 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:24,960 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:25,088 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:25,088 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:25,088 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:25,089 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:25,358 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:25,358 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:25,358 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:25,359 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:25,483 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:25,485 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:25,485 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:25,486 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:25,623 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:25,624 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:25,624 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:25,625 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:25,798 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:25,799 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:25,799 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:25,800 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:25,955 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:25,969 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:25,969 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:25,971 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:25,971 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:26,512 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:26,513 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:26,513 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:26,514 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:26,700 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:26,701 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:26,701 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:26,702 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:26,772 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:26,772 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:26,773 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:26,773 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:26,962 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:27,064 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:27,065 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:27,065 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:27,066 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:27,312 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:27,312 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:27,312 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:27,313 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:27,401 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:27,402 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:27,402 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:27,403 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:27,652 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:27,652 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:27,652 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:27,653 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:27,653 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:27,780 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:27,780 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:27,781 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:27,781 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:27,906 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:27,906 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:27,906 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:27,907 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:27,975 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:28,339 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:28,339 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:28,340 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:28,340 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:28,534 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:28,534 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:28,534 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:28,535 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:28,829 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:28,830 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:28,830 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:28,830 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:28,988 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:29,260 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:29,261 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:29,261 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:29,262 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:29,356 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-04 20:36:29,357 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-04 20:36:29,357 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: stop_status
+2024-03-04 20:36:29,398 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:29,590 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:29,590 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:29,591 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:29,653 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:29,653 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:29,653 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:29,654 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:29,877 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:29,879 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:29,879 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:29,880 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:29,949 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:29,950 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:29,950 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:29,951 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:29,999 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:30,404 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:30,404 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:30,404 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:30,405 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:30,629 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:30,629 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:30,630 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:30,630 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:31,006 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:31,047 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:31,047 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:31,047 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:31,048 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:31,119 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:31,120 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:31,120 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:31,121 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:31,337 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:31,338 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:31,338 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:31,339 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:31,894 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:31,894 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:31,895 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:31,896 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:32,020 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:32,034 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:32,034 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:32,035 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:32,035 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:32,158 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:32,158 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:32,158 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:32,159 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:32,241 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:32,242 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:32,242 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:32,243 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:32,361 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:32,361 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:32,361 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:32,362 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:32,609 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:32,609 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:32,609 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:32,610 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:32,823 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:32,823 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:32,823 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:32,823 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:32,824 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:33,008 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:33,008 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:33,008 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:33,009 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:33,030 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:33,230 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:33,231 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:33,231 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:33,231 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:33,362 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:33,362 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:33,363 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:33,363 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:33,519 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:33,520 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:33,520 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:33,521 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:33,936 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:33,938 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:33,938 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:33,939 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:34,040 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:34,062 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:34,063 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:34,063 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:34,064 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:34,251 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:34,251 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:34,252 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:34,252 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:34,507 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:34,508 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:34,508 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:34,508 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:34,575 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:34,575 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:34,575 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:34,576 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:35,030 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:35,031 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:35,031 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:35,032 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:35,052 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:35,559 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:35,560 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:35,560 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:35,561 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:35,830 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:35,831 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:35,831 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:35,832 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:35,896 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:35,896 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:35,897 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:35,897 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:36,056 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:36,111 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:36,112 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:36,112 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:36,113 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:36,546 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:36,547 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:36,547 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:36,548 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:36,708 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:36,709 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:36,709 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:36,709 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:36,847 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:36,847 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:36,847 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:36,848 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:36,920 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:36,921 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:36,921 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:36,922 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:36,982 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:36,983 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:36,983 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:36,983 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:37,064 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:37,173 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:37,174 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:37,174 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:37,175 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:37,369 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:37,370 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:37,370 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:37,371 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:37,659 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:37,659 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:37,659 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:37,660 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:37,789 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:37,789 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:37,790 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:37,790 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:37,928 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:37,928 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:37,930 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:38,071 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:38,088 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:38,159 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:38,160 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:38,160 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:38,160 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:38,161 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:38,573 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:38,573 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:38,573 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:38,574 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:38,724 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:38,724 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:38,724 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:38,725 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:38,984 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:38,985 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:38,985 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:38,986 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:39,071 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:39,072 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\config.yaml
+2024-03-04 20:36:39,299 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:39,300 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:39,300 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:39,300 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:39,383 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:39,384 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:39,384 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:39,384 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:40,079 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:40,094 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:40,094 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:40,096 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:40,096 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:40,564 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:40,564 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:40,565 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:40,566 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:40,795 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:40,796 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:40,797 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:40,797 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:40,871 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:40,871 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:40,872 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:40,872 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:41,086 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:41,086 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:41,086 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:41,088 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:41,092 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:41,514 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:41,515 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:41,515 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:41,516 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:41,658 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:41,658 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:41,659 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:41,659 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:41,802 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:41,803 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:41,803 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:41,803 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:41,908 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:41,909 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:41,909 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:41,910 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:41,963 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:41,964 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:41,964 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:41,965 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:42,102 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:42,170 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:42,171 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:42,171 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:42,172 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:42,363 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:42,364 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:42,364 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:42,365 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:42,595 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:42,596 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:42,596 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:42,597 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:42,769 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:42,770 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:42,770 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:42,771 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:42,951 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:42,952 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:42,952 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:42,953 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:43,114 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:43,130 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:43,131 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:43,131 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:43,132 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:43,411 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:43,412 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:43,412 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:43,412 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:43,413 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:43,760 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:43,760 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:43,760 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:43,761 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:44,121 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:44,183 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:44,184 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:44,184 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:44,185 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:44,365 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-04 20:36:44,365 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-04 20:36:44,366 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: stop_status
+2024-03-04 20:36:44,623 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:44,668 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:44,668 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:44,670 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:45,131 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:45,133 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:45,134 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:45,134 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:45,134 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:45,604 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:45,605 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:45,605 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:45,606 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:45,929 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:45,930 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:45,930 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:45,931 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:46,043 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:46,044 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:46,044 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:46,045 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:46,139 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:46,185 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:46,186 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:46,186 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:46,186 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:46,445 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:46,445 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:46,446 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:46,446 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:46,623 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:46,624 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:46,624 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:46,625 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:46,791 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:46,792 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:46,792 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:46,793 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:46,984 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:46,984 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:46,984 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:46,985 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:47,146 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:47,246 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:47,247 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:47,247 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:47,248 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:47,388 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:47,388 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:47,388 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:47,389 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:47,532 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:47,532 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:47,533 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:47,533 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:47,682 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:47,683 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:47,683 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:47,684 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:47,868 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:47,868 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:47,868 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:47,869 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:48,010 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:48,010 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:48,011 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:48,011 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:48,156 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:48,186 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:48,188 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:48,188 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:48,188 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:48,381 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:48,381 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:48,382 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:48,382 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:48,518 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:48,519 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:48,519 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:48,519 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:48,520 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:48,675 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:48,675 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:48,675 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:48,676 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:48,941 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:48,941 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:48,941 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:48,942 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:49,086 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:49,086 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:49,086 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:49,087 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:49,165 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:49,190 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:49,191 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:49,191 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:49,192 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:49,311 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:49,312 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:49,312 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:49,313 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:49,442 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:49,443 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:49,443 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:49,444 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:50,025 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:50,025 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:50,025 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:50,026 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:50,173 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:50,831 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:50,832 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:50,832 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:50,833 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:51,181 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:51,654 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:51,655 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:51,655 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:51,656 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:52,196 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:52,390 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:52,391 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:52,391 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:52,391 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:53,204 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:53,272 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:53,272 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:53,272 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:53,273 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:54,047 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:54,048 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:54,048 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:54,049 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:54,050 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:54,212 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:54,790 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:54,790 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:54,790 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:54,791 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:55,147 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:55,148 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:55,148 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:55,148 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:55,220 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:55,489 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:55,490 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:55,490 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:55,490 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:55,622 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:55,623 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:55,623 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:55,624 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:55,738 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:55,739 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:55,739 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:55,740 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:55,894 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:55,894 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:55,895 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:55,895 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:56,149 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:56,150 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:56,150 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:56,151 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:56,231 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:56,232 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:56,232 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:56,233 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:56,235 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:56,445 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:56,446 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:56,446 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:56,447 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:56,503 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:56,504 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:56,504 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:56,505 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:56,602 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:56,610 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:56,610 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:56,611 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:56,680 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:56,681 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:56,681 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:56,682 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:56,817 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:56,818 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:56,818 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:56,818 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:57,121 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:57,122 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:57,122 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:57,123 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:57,197 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:57,197 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:57,197 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:57,198 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:57,249 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:57,431 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:57,431 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:57,432 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:57,433 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:57,540 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:57,541 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:57,541 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:57,542 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:57,634 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:57,635 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:57,635 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:57,636 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:57,951 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:57,952 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:57,952 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:57,952 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:58,186 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:58,186 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:58,187 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:58,188 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:58,260 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:58,297 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:58,298 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:58,298 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:58,298 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:58,534 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:58,535 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:58,535 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:58,535 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:58,678 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:58,679 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:58,679 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:58,680 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:58,762 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:58,763 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:58,763 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:58,764 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:58,948 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:58,949 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:58,949 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:58,950 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:59,093 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:59,093 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:59,094 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:59,094 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:36:59,094 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:59,280 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:36:59,324 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:59,324 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:59,324 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:59,325 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:59,359 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-04 20:36:59,359 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: stop_status
+2024-03-04 20:36:59,374 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-04 20:36:59,486 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:59,585 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:59,585 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:59,586 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:59,711 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:59,712 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:59,712 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:59,712 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:36:59,902 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:36:59,903 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:36:59,903 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:36:59,904 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:00,065 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:00,066 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:00,066 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:00,066 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:00,291 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:00,500 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:00,500 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:00,500 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:00,501 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:00,568 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:00,569 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:00,569 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:00,570 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:00,635 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:00,636 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:00,636 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:00,636 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:00,690 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:00,691 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:00,691 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:00,691 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:00,784 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:00,784 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:00,784 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:00,785 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:01,159 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:01,160 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:01,160 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:01,161 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:01,323 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:01,706 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:01,708 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:01,708 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:01,709 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:02,146 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:02,148 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:02,148 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:02,149 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:02,329 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:02,591 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:02,591 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:02,591 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:02,593 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:03,086 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:03,086 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:03,087 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:03,087 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:03,362 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:03,601 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:03,602 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:03,602 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:03,603 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:04,115 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:04,115 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:04,116 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:04,116 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:04,116 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:04,257 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:04,257 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:04,257 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:04,258 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:04,368 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:04,381 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:04,382 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:04,382 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:04,383 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:04,565 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:04,565 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:04,565 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:04,566 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:04,763 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:04,764 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:04,764 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:04,765 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:04,987 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:04,988 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:04,988 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:04,989 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:05,186 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:05,188 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:05,188 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:05,188 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:05,394 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:05,439 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:05,440 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:05,440 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:05,441 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:05,799 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:05,800 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:05,800 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:05,801 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:06,077 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:06,077 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:06,077 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:06,078 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:06,305 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:06,306 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:06,306 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:06,307 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:06,399 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:06,651 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:06,651 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:06,651 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:06,652 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:07,092 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:07,092 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:07,093 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:07,093 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:07,439 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:07,439 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:07,440 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:07,440 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:07,441 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:07,766 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:07,767 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:07,767 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:07,768 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:07,862 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:07,862 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:07,862 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:07,863 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:07,943 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:07,943 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:07,943 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:07,944 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:08,294 DEBUG   SystemMonitor:2052 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-04 20:37:08,294 DEBUG   SenderThread:2052 [sender.py:send():382] send: stats
+2024-03-04 20:37:08,399 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:08,400 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:08,400 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:08,400 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:08,447 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:08,492 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:08,493 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:08,493 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:08,494 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:08,627 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:08,628 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:08,628 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:08,628 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:08,715 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:08,716 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:08,716 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:08,716 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:08,789 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:08,789 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:08,789 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:08,790 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:09,145 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:09,146 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:09,146 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:09,146 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:09,147 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:09,268 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:09,269 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:09,269 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:09,270 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:09,481 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:09,786 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:09,786 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:09,787 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:09,787 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:09,885 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:09,885 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:09,885 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:09,886 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:10,078 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:10,079 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:10,079 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:10,079 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:10,208 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:10,209 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:10,209 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:10,209 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:10,327 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:10,327 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:10,327 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:10,328 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:10,485 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:10,866 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:10,867 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:10,867 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:10,867 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:11,397 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:11,398 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:11,398 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:11,399 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:11,520 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:11,532 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:11,532 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:11,533 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:11,533 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:12,260 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:12,260 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:12,261 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:12,261 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:12,456 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:12,457 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:12,457 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:12,458 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:12,521 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:12,724 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:12,725 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:12,725 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:12,726 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:12,840 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:12,841 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:12,841 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:12,842 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:13,468 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:13,469 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:13,469 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:13,470 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:13,561 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:14,142 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:14,143 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:14,143 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:14,144 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:14,355 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:14,356 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:14,356 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:14,356 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:14,357 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:14,370 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-04 20:37:14,370 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: stop_status
+2024-03-04 20:37:14,385 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-04 20:37:14,570 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:14,833 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:14,834 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:14,834 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:14,836 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:15,032 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:15,033 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:15,033 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:15,033 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:15,132 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:15,133 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:15,133 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:15,134 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:15,519 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:15,520 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:15,520 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:15,521 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:15,598 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:15,915 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:15,915 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:15,915 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:15,916 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:16,527 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:16,528 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:16,528 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:16,529 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:16,599 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:16,737 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:16,738 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:16,738 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:16,738 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:17,186 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:17,186 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:17,186 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:17,187 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:17,640 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:17,724 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:17,725 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:17,725 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:17,726 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:18,222 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:18,222 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:18,222 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:18,223 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:18,651 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:18,781 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:18,782 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:18,782 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:18,783 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:18,858 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:18,859 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:18,859 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:18,860 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:18,924 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:18,925 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:18,925 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:18,925 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:18,989 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:18,990 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:18,990 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:18,990 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:19,060 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:19,061 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:19,061 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:19,062 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:19,134 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:19,135 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:19,135 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:19,136 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:19,202 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:19,203 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:19,203 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:19,204 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:19,309 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:19,310 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:19,310 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:19,311 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:19,449 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:19,450 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:19,450 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:19,450 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:19,451 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:19,588 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:19,589 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:19,589 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:19,590 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:19,682 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:19,764 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:19,764 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:19,765 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:19,765 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:20,009 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:20,009 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:20,010 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:20,010 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:20,220 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:20,221 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:20,221 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:20,222 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:20,470 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:20,471 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:20,471 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:20,472 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:20,693 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:20,702 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:20,703 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:20,703 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:20,705 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:20,816 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:20,816 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:20,816 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:20,818 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:20,891 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:20,892 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:20,892 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:20,893 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:20,961 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:20,962 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:20,962 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:20,963 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:21,032 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:21,032 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:21,033 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:21,033 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:21,119 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:21,120 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:21,120 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:21,121 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:21,192 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:21,193 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:21,193 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:21,193 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:21,261 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:21,262 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:21,262 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:21,263 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:21,720 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:21,909 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:21,910 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:21,910 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:21,911 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:22,495 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:22,496 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:22,496 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:22,497 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:22,731 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:23,189 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:23,190 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:23,190 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:23,191 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:23,388 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:23,389 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:23,389 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:23,390 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:23,472 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:23,473 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:23,473 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:23,474 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:23,746 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:23,748 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:23,748 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:23,748 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:23,749 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:23,891 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:23,891 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:23,892 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:23,892 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:23,987 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:23,987 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:23,987 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:23,987 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:24,114 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:24,115 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:24,115 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:24,115 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:24,669 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:24,669 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:24,670 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:24,670 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:24,670 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:24,749 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:24,875 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:24,875 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:24,875 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:24,877 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:24,950 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:24,951 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:24,951 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:24,951 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:25,260 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:25,260 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:25,260 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:25,261 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:25,389 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:25,390 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:25,390 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:25,391 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:25,804 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:25,809 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:25,809 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:25,809 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:25,810 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:26,148 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:26,149 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:26,149 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:26,150 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:26,366 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:26,368 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:26,368 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:26,368 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:26,604 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:26,605 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:26,605 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:26,606 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:26,682 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:26,683 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:26,683 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:26,683 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:26,767 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:26,931 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:26,931 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:26,932 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:26,932 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:27,209 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:27,209 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:27,209 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:27,210 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:27,492 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:27,492 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:27,492 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:27,493 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:27,731 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:27,732 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:27,732 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:27,733 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:27,773 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:27,846 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:27,847 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:27,847 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:27,848 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:27,916 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:27,918 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:27,918 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:27,918 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:28,169 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:28,170 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:28,170 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:28,171 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:28,316 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:28,317 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:28,317 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:28,318 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:28,533 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:28,534 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:28,535 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:28,535 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:28,787 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:28,804 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:28,804 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:28,804 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:28,805 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:29,113 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:29,113 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:29,113 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:29,114 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:29,354 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:29,354 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:29,354 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:29,355 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:29,380 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-04 20:37:29,381 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: stop_status
+2024-03-04 20:37:29,395 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-04 20:37:29,592 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:29,677 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:29,677 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:29,677 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:29,678 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:29,789 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:29,790 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:29,790 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:29,790 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:29,791 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:30,052 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:30,053 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:30,053 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:30,054 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:30,263 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:30,263 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:30,264 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:30,264 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:30,392 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:30,393 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:30,393 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:30,394 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:30,510 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:30,511 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:30,511 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:30,512 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:30,631 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:30,632 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:30,632 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:30,633 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:30,754 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:30,755 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:30,755 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:30,755 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:30,804 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:30,892 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:30,893 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:30,893 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:30,894 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:31,013 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:31,013 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:31,013 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:31,014 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:31,126 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:31,126 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:31,126 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:31,127 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:31,485 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:31,485 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:31,486 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:31,486 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:31,815 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:31,928 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:31,929 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:31,929 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:31,930 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:31,995 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:31,995 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:31,995 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:31,996 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:32,150 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:32,151 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:32,152 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:32,152 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:32,296 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:32,298 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:32,298 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:32,299 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:32,455 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:32,456 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:32,456 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:32,456 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:32,597 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:32,598 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:32,599 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:32,599 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:32,827 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:33,046 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:33,048 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:33,048 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:33,049 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:33,486 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:33,488 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:33,488 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:33,489 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:33,835 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:34,042 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:34,043 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:34,043 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:34,043 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:34,525 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:34,526 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:34,526 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:34,526 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:34,845 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:35,039 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:35,040 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:35,040 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:35,040 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:35,041 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:35,667 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:35,668 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:35,668 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:35,668 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:35,845 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:36,322 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:36,322 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:36,322 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:36,323 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:36,587 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:36,587 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:36,587 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:36,588 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:36,856 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:36,873 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:36,874 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:36,874 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:36,874 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:37,012 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:37,013 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:37,013 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:37,014 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:37,392 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:37,393 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:37,393 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:37,394 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:37,610 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:37,610 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:37,610 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:37,611 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:37,866 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:38,131 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:38,132 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:38,132 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:38,132 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:38,308 DEBUG   SenderThread:2052 [sender.py:send():382] send: stats
+2024-03-04 20:37:38,444 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:38,444 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:38,445 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:38,445 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:38,826 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:38,826 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:38,828 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:38,828 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:38,875 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:38,975 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:38,976 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:38,976 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:38,976 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:39,334 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:39,335 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:39,335 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:39,336 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:39,641 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:39,641 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:39,642 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:39,642 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:39,883 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:40,185 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:40,186 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:40,186 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:40,186 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:40,186 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:40,719 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:40,720 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:40,720 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:40,721 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:40,891 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:41,232 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:41,233 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:41,233 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:41,234 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:41,666 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:41,668 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:41,668 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:41,669 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:41,900 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:41,965 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:41,965 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:41,965 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:41,966 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:42,138 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:42,139 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:42,139 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:42,140 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:42,297 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:42,297 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:42,297 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:42,298 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:42,784 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:42,785 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:42,785 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:42,786 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:42,909 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:43,308 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:43,308 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:43,308 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:43,309 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:43,372 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:43,373 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:43,373 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:43,374 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:43,607 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:43,607 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:43,607 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:43,608 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:43,918 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:44,130 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:44,169 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:44,170 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:44,170 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:44,391 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-04 20:37:44,391 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: stop_status
+2024-03-04 20:37:44,406 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-04 20:37:44,490 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:44,668 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:44,668 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:44,669 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:44,839 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:44,840 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:44,840 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:44,840 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:44,924 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:45,166 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:45,167 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:45,167 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:45,167 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:45,379 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:45,379 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:45,379 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:45,379 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:45,380 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:45,555 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:45,556 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:45,556 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:45,556 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:45,860 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:45,861 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:45,861 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:45,862 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:45,932 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:46,142 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:46,143 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:46,143 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:46,144 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:46,828 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:46,828 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:46,829 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:46,829 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:46,942 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:46,943 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:46,943 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:46,944 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:46,944 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:47,129 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:47,129 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:47,130 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:47,130 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:47,380 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:47,381 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:47,381 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:47,382 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:47,659 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:47,660 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:47,660 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:47,660 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:47,800 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:47,800 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:47,800 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:47,801 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:47,943 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:47,943 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:47,943 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:47,944 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:47,955 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:48,147 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:48,147 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:48,148 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:48,148 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:48,290 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:48,291 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:48,291 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:48,292 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:48,752 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:48,753 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:48,753 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:48,753 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:48,912 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:48,912 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:48,912 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:48,913 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:48,967 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:49,035 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:49,036 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:49,036 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:49,037 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:49,314 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:49,315 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:49,315 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:49,316 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:49,593 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:49,594 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:49,594 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:49,595 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:49,825 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:49,826 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:49,826 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:49,826 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:49,976 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:50,011 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:50,012 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:50,012 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:50,012 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:50,277 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:50,278 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:50,278 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:50,278 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:50,389 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:50,390 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:50,390 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:50,390 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report
+2024-03-04 20:37:50,391 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:50,885 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-04 20:37:50,885 DEBUG   SenderThread:2052 [sender.py:send():382] send: history
+2024-03-04 20:37:50,885 DEBUG   SenderThread:2052 [sender.py:send_request():409] send_request: summary_record
+2024-03-04 20:37:50,886 INFO    SenderThread:2052 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-04 20:37:50,986 INFO    Thread-31 :2052 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240304_203600-rotxi7hb\files\wandb-summary.json
+2024-03-04 20:37:55,910 DEBUG   HandlerThread:2052 [handler.py:handle_request():146] handle_request: status_report

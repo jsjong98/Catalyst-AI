@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-04T11:38:05.710309",
+    "startedAt": "2024-03-04T11:38:04.624576",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/jsjong98/Catalyst-AI_rev.git",
+        "commit": "e663ab5cbf1d4326d0f85d88d69f5cfcefa7f6f1"
+    },
+    "email": "jsjong98@gmail.com",
+    "root": "C:/Users/OJH/OneDrive/SKKU/\uc5f0\uad6c\uc790\ub8cc/Catalyst AI_rev",
+    "host": "DESKTOP-5024PSV",
+    "username": "OJH",
+    "executable": "c:\\Users\\OJH\\anaconda3\\python.exe",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3000.0,
+        "min": 0.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1862.1967124938965,
+            "used": 659.8429069519043
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4080",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 63.781253814697266
+    }
+}

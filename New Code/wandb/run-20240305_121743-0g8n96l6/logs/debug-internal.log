@@ -1,0 +1,618 @@
+2024-03-05 12:17:43,992 INFO    StreamThr :41176 [internal.py:wandb_internal():86] W&B internal server running at pid: 41176, started at: 2024-03-05 12:17:43.992172
+2024-03-05 12:17:43,993 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: status
+2024-03-05 12:17:44,006 INFO    WriterThread:41176 [datastore.py:open_for_write():87] open: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\run-0g8n96l6.wandb
+2024-03-05 12:17:44,007 DEBUG   SenderThread:41176 [sender.py:send():382] send: header
+2024-03-05 12:17:44,057 DEBUG   SenderThread:41176 [sender.py:send():382] send: run
+2024-03-05 12:17:44,678 INFO    SenderThread:41176 [dir_watcher.py:__init__():211] watching files in: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files
+2024-03-05 12:17:44,678 INFO    SenderThread:41176 [sender.py:_start_run_threads():1136] run started: 0g8n96l6 with start time 1709608663.993172
+2024-03-05 12:17:44,688 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: check_version
+2024-03-05 12:17:44,688 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: check_version
+2024-03-05 12:17:44,975 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: run_start
+2024-03-05 12:17:45,009 DEBUG   HandlerThread:41176 [system_info.py:__init__():27] System info init
+2024-03-05 12:17:45,009 DEBUG   HandlerThread:41176 [system_info.py:__init__():42] System info init done
+2024-03-05 12:17:45,009 INFO    HandlerThread:41176 [system_monitor.py:start():194] Starting system monitor
+2024-03-05 12:17:45,009 INFO    SystemMonitor:41176 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-05 12:17:45,009 INFO    HandlerThread:41176 [system_monitor.py:probe():214] Collecting system info
+2024-03-05 12:17:45,016 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started cpu monitoring
+2024-03-05 12:17:45,017 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started disk monitoring
+2024-03-05 12:17:45,017 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started gpu monitoring
+2024-03-05 12:17:45,017 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started memory monitoring
+2024-03-05 12:17:45,033 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started network monitoring
+2024-03-05 12:17:45,045 DEBUG   HandlerThread:41176 [system_info.py:probe():151] Probing system
+2024-03-05 12:17:45,047 DEBUG   HandlerThread:41176 [system_info.py:_probe_git():136] Probing git
+2024-03-05 12:17:45,110 DEBUG   HandlerThread:41176 [system_info.py:_probe_git():144] Probing git done
+2024-03-05 12:17:45,110 DEBUG   HandlerThread:41176 [system_info.py:probe():199] Probing system done
+2024-03-05 12:17:45,110 DEBUG   HandlerThread:41176 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-03-05T03:17:45.045774', 'startedAt': '2024-03-05T03:17:43.980173', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Users\\OJH\\OneDrive\\SKKU\\연구자료\\Catalyst AI_rev\\New Code\\Data_extrapolative_BO_rev.py', 'codePathLocal': 'Data_extrapolative_BO_rev.py', 'codePath': 'New Code\\Data_extrapolative_BO_rev.py', 'git': {'remote': 'https://github.com/jsjong98/Catalyst-AI_rev.git', 'commit': 'e663ab5cbf1d4326d0f85d88d69f5cfcefa7f6f1'}, 'email': 'jsjong98@gmail.com', 'root': 'C:/Users/OJH/OneDrive/SKKU/연구자료/Catalyst AI_rev', 'host': 'DESKTOP-5024PSV', 'username': 'OJH', 'executable': 'c:\\Users\\OJH\\anaconda3\\python.exe', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'/': {'total': 1862.1967124938965, 'used': 660.2190475463867}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 63.781253814697266}}
+2024-03-05 12:17:45,110 INFO    HandlerThread:41176 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-05 12:17:45,110 INFO    HandlerThread:41176 [system_monitor.py:probe():227] Publishing system info
+2024-03-05 12:17:45,110 DEBUG   HandlerThread:41176 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-05 12:17:45,681 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\conda-environment.yaml
+2024-03-05 12:17:51,233 DEBUG   HandlerThread:41176 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-05 12:17:51,234 INFO    HandlerThread:41176 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-05 12:17:51,238 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 12:17:51,238 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:17:51,238 DEBUG   SenderThread:41176 [sender.py:send():382] send: files
+2024-03-05 12:17:51,239 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-05 12:17:51,246 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-05 12:17:51,247 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: python_packages
+2024-03-05 12:17:51,247 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 12:17:51,247 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:17:51,248 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 12:17:51,251 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: pause
+2024-03-05 12:17:51,251 INFO    HandlerThread:41176 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-05 12:17:51,251 INFO    HandlerThread:41176 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-05 12:17:51,260 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-05 12:17:51,260 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-05 12:17:51,260 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-05 12:17:51,260 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined disk monitor
+2024-03-05 12:17:51,260 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-05 12:17:51,332 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-05 12:17:51,332 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined memory monitor
+2024-03-05 12:17:51,332 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined network monitor
+2024-03-05 12:17:51,332 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: resume
+2024-03-05 12:17:51,332 INFO    HandlerThread:41176 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-05 12:17:51,332 INFO    HandlerThread:41176 [system_monitor.py:start():194] Starting system monitor
+2024-03-05 12:17:51,333 INFO    SystemMonitor:41176 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-05 12:17:51,333 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: pause
+2024-03-05 12:17:51,333 INFO    HandlerThread:41176 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-05 12:17:51,339 INFO    HandlerThread:41176 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-05 12:17:51,339 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started cpu monitoring
+2024-03-05 12:17:51,340 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-05 12:17:51,340 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-05 12:17:51,340 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-05 12:17:51,340 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-05 12:17:51,340 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: resume
+2024-03-05 12:17:51,340 INFO    HandlerThread:41176 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-05 12:17:51,341 INFO    HandlerThread:41176 [system_monitor.py:start():194] Starting system monitor
+2024-03-05 12:17:51,341 INFO    SystemMonitor:41176 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-05 12:17:51,341 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: pause
+2024-03-05 12:17:51,341 INFO    HandlerThread:41176 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-05 12:17:51,352 INFO    HandlerThread:41176 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-05 12:17:51,352 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started cpu monitoring
+2024-03-05 12:17:51,352 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-05 12:17:51,352 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-05 12:17:51,352 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-05 12:17:51,352 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-05 12:17:51,353 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: resume
+2024-03-05 12:17:51,353 INFO    HandlerThread:41176 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-05 12:17:51,353 INFO    HandlerThread:41176 [system_monitor.py:start():194] Starting system monitor
+2024-03-05 12:17:51,353 INFO    SystemMonitor:41176 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-05 12:17:51,353 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: pause
+2024-03-05 12:17:51,353 INFO    HandlerThread:41176 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-05 12:17:51,361 INFO    HandlerThread:41176 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-05 12:17:51,362 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started cpu monitoring
+2024-03-05 12:17:51,362 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-05 12:17:51,362 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-05 12:17:51,362 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-05 12:17:51,362 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-05 12:17:51,363 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: resume
+2024-03-05 12:17:51,363 INFO    HandlerThread:41176 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-05 12:17:51,363 INFO    HandlerThread:41176 [system_monitor.py:start():194] Starting system monitor
+2024-03-05 12:17:51,364 INFO    SystemMonitor:41176 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-05 12:17:51,364 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: pause
+2024-03-05 12:17:51,364 INFO    HandlerThread:41176 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-05 12:17:51,373 INFO    HandlerThread:41176 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-05 12:17:51,373 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started cpu monitoring
+2024-03-05 12:17:51,374 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-05 12:17:51,374 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-05 12:17:51,374 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-05 12:17:51,374 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-05 12:17:51,390 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: resume
+2024-03-05 12:17:51,390 INFO    HandlerThread:41176 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-05 12:17:51,390 INFO    HandlerThread:41176 [system_monitor.py:start():194] Starting system monitor
+2024-03-05 12:17:51,391 INFO    SystemMonitor:41176 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-05 12:17:51,400 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started cpu monitoring
+2024-03-05 12:17:51,401 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started disk monitoring
+2024-03-05 12:17:51,401 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started gpu monitoring
+2024-03-05 12:17:51,401 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started memory monitoring
+2024-03-05 12:17:51,435 INFO    SystemMonitor:41176 [interfaces.py:start():190] Started network monitoring
+2024-03-05 12:17:51,551 DEBUG   SenderThread:41176 [sender.py:send():382] send: telemetry
+2024-03-05 12:17:51,551 DEBUG   SenderThread:41176 [sender.py:send():382] send: stats
+2024-03-05 12:17:51,551 DEBUG   SenderThread:41176 [sender.py:send():382] send: stats
+2024-03-05 12:17:51,552 DEBUG   SenderThread:41176 [sender.py:send():382] send: stats
+2024-03-05 12:17:51,552 DEBUG   SenderThread:41176 [sender.py:send():382] send: stats
+2024-03-05 12:17:51,552 DEBUG   SenderThread:41176 [sender.py:send():382] send: stats
+2024-03-05 12:17:51,749 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\conda-environment.yaml
+2024-03-05 12:17:51,750 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\requirements.txt
+2024-03-05 12:17:51,750 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-metadata.json
+2024-03-05 12:17:51,750 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:17:52,246 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:17:52,247 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:17:52,248 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:17:52,249 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:17:52,456 INFO    wandb-upload_0:41176 [upload_job.py:push():131] Uploaded file C:\Users\OJH\AppData\Local\Temp\tmpwm7_m7diwandb\84iuzvny-wandb-metadata.json
+2024-03-05 12:17:52,759 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:17:52,882 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:17:52,882 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:17:52,883 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:17:52,883 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:17:53,418 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:17:53,419 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:17:53,419 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:17:53,420 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:17:53,628 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:17:53,629 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:17:53,629 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:17:53,630 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:17:53,770 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:17:53,771 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:17:54,644 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 12:17:54,875 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:17:54,876 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:17:54,876 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:17:54,877 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:17:55,354 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:17:55,354 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:17:55,355 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:17:55,355 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:17:55,746 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:17:55,791 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:17:55,792 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:17:56,762 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:17:56,763 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:17:56,763 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:17:56,764 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:17:56,805 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:17:57,745 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:17:57,815 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:17:58,607 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:17:58,607 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:17:58,607 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:17:58,608 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:17:58,827 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:17:59,493 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:17:59,493 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:17:59,494 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:17:59,494 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:17:59,750 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:17:59,840 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:17:59,840 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:00,263 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 12:18:00,304 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:00,304 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:00,304 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:00,305 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:00,851 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:00,877 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:00,877 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:00,878 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:00,878 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:01,745 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:01,864 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:01,865 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:01,881 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:01,882 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:01,882 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:01,883 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:02,735 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:02,735 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:02,736 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:02,736 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:02,877 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:03,746 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:03,889 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:04,067 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:04,067 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:04,068 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:04,068 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:04,900 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:05,745 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:05,791 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 12:18:05,830 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:05,831 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:05,831 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:05,832 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:05,912 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:05,912 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:06,133 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:06,134 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:06,134 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:06,134 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:06,244 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 12:18:06,245 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 12:18:06,259 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:18:06,436 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:06,526 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:06,527 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:06,528 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:06,797 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:06,797 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:06,797 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:06,798 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:06,922 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:07,067 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:07,068 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:07,068 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:07,069 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:07,378 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:07,378 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:07,378 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:07,379 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:07,754 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:07,936 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:07,936 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:07,987 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:07,987 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:07,988 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:07,988 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:08,583 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:08,584 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:08,584 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:08,585 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:08,949 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:09,250 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:09,251 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:09,251 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:09,251 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:09,776 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:09,780 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:09,781 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:09,781 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:09,782 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:09,961 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:09,962 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:10,315 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:10,316 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:10,316 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:10,317 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:10,574 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:10,575 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:10,575 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:10,576 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:10,971 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:11,589 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 12:18:11,751 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:11,760 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:11,760 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:11,760 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:11,761 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:11,982 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:11,983 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:13,750 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:13,944 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:13,944 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:13,944 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:13,945 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:14,006 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:14,006 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:14,227 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:14,228 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:14,228 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:14,229 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:14,908 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:14,908 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:14,909 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:14,909 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:15,018 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:15,228 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:15,228 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:15,228 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:15,229 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:15,750 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:15,905 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:15,906 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:15,906 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:15,907 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:16,031 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:16,032 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:16,507 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:16,508 DEBUG   SenderThread:41176 [sender.py:send():382] send: history
+2024-03-05 12:18:16,508 DEBUG   SenderThread:41176 [sender.py:send_request():409] send_request: summary_record
+2024-03-05 12:18:16,510 INFO    SenderThread:41176 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-05 12:18:17,042 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\wandb-summary.json
+2024-03-05 12:18:17,213 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 12:18:17,258 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:17,406 ERROR   SenderThread:41176 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-03-05 12:18:17,406 ERROR   SenderThread:41176 [internal_api.py:execute():374] {"errors":[{"message":"run jonghwan_oh/Model prediction/0g8n96l6 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-03-05 12:18:17,752 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:17,771 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:18,055 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:18,065 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:18,603 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:18,800 ERROR   SenderThread:41176 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-03-05 12:18:18,800 ERROR   SenderThread:41176 [internal_api.py:execute():374] {"errors":[{"message":"run jonghwan_oh/Model prediction/0g8n96l6 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-03-05 12:18:18,854 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:19,778 ERROR   FileStreamThread:41176 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/jonghwan_oh/Model%20prediction/0g8n96l6/file_stream
+NoneType: None
+2024-03-05 12:18:20,080 INFO    Thread-16 :41176 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\files\output.log
+2024-03-05 12:18:21,039 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:21,107 ERROR   SenderThread:41176 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-03-05 12:18:21,107 ERROR   SenderThread:41176 [internal_api.py:execute():374] {"errors":[{"message":"run jonghwan_oh/Model prediction/0g8n96l6 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-03-05 12:18:21,108 INFO    SenderThread:41176 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2024-03-05 12:18:21,260 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 12:18:21,261 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:18:21,649 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:22,790 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:23,459 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:24,604 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:24,855 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:25,425 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:26,025 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:26,282 ERROR   SenderThread:41176 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-03-05 12:18:26,283 ERROR   SenderThread:41176 [internal_api.py:execute():374] {"errors":[{"message":"run jonghwan_oh/Model prediction/0g8n96l6 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-03-05 12:18:26,318 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:18:26,644 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:28,102 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:28,860 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:29,840 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:30,125 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:30,700 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:31,361 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:31,384 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:18:31,960 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:33,579 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:34,366 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:34,774 ERROR   SenderThread:41176 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-03-05 12:18:34,774 ERROR   SenderThread:41176 [internal_api.py:execute():374] {"errors":[{"message":"run jonghwan_oh/Model prediction/0g8n96l6 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-03-05 12:18:35,299 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:35,569 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:36,273 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:18:36,342 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:36,977 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:37,621 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:39,214 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:39,911 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:40,956 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:41,231 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:41,517 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:18:41,866 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:42,548 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:43,173 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:43,479 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:44,645 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:45,712 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:46,011 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:46,567 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:46,585 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:18:47,261 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:48,067 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:50,525 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:51,155 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:51,284 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:18:51,451 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-05 12:18:51,703 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:52,499 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:53,239 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:54,808 ERROR   SenderThread:41176 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-03-05 12:18:54,808 ERROR   SenderThread:41176 [internal_api.py:execute():374] {"errors":[{"message":"run jonghwan_oh/Model prediction/0g8n96l6 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-03-05 12:18:56,043 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:18:56,714 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:18:59,004 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:01,678 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:01,774 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:19:02,404 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:02,930 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:04,262 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:04,714 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:05,919 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:06,288 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:19:06,428 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:09,112 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:09,836 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:10,363 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:10,639 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:10,989 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:11,265 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:11,884 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:19:11,918 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:13,966 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:14,569 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:15,091 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:15,338 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:16,386 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:16,676 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:16,944 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:19:17,281 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:18,753 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:19,298 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:19,806 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:20,036 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:20,972 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:21,220 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:21,289 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:19:21,782 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:23,205 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:23,761 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:24,282 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:24,494 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:25,428 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:25,657 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:26,265 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:27,054 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:19:28,193 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:28,766 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:29,307 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:29,557 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:30,577 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:30,853 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:31,884 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:32,105 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:19:32,837 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:33,758 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:33,769 ERROR   SenderThread:41176 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-03-05 12:19:33,769 ERROR   SenderThread:41176 [internal_api.py:execute():374] {"errors":[{"message":"run jonghwan_oh/Model prediction/0g8n96l6 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-03-05 12:19:34,665 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:35,583 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:36,294 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:19:36,503 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:37,429 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:38,344 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:39,272 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:40,191 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:41,112 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:42,032 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:42,234 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:19:42,959 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:43,895 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:44,508 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:46,398 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:47,292 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:19:48,298 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:49,636 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:50,996 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:51,294 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:19:52,670 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:54,839 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:56,319 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:56,399 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:19:57,843 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:19:59,376 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:00,960 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:01,457 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:20:02,525 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:04,220 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:05,838 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:06,302 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:20:07,405 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:07,648 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:07,833 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:08,055 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:08,274 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:08,494 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:08,721 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:08,960 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:09,188 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:09,435 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:09,695 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:09,943 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:10,209 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:10,463 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:11,563 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:20:11,900 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:12,108 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:12,323 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:12,546 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:12,774 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:12,994 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:13,207 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:13,439 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:13,669 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:13,896 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:14,107 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:14,318 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:14,525 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:14,748 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:15,396 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:16,144 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:16,621 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:20:16,832 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:17,531 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:18,218 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:18,934 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:19,687 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:20,395 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:21,092 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:21,296 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:20:21,771 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:22,473 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:23,163 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:23,836 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:24,533 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:25,141 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:26,092 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:26,742 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:20:27,001 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:27,935 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:28,865 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:29,789 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:30,719 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:31,801 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 12:20:31,854 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:33,196 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:34,383 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:35,619 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:36,297 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 12:20:36,709 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:37,775 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:38,854 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:39,140 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:39,749 ERROR   SenderThread:41176 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-03-05 12:20:39,749 ERROR   SenderThread:41176 [internal_api.py:execute():374] {"errors":[{"message":"run jonghwan_oh/Model prediction/0g8n96l6 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-03-05 12:20:39,851 DEBUG   HandlerThread:41176 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-05 12:20:39,851 INFO    HandlerThread:41176 [handler.py:finish():869] shutting down handler
+2024-03-05 12:20:39,851 INFO    WriterThread:41176 [datastore.py:close():296] close: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_121743-0g8n96l6\run-0g8n96l6.wandb
+2024-03-05 12:20:39,851 INFO    HandlerThread:41176 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-05 12:20:39,851 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-05 12:20:39,860 DEBUG   SystemMonitor:41176 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-05 12:20:39,860 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-05 12:20:39,861 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined disk monitor
+2024-03-05 12:20:39,940 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-05 12:20:39,940 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined memory monitor
+2024-03-05 12:20:39,940 INFO    HandlerThread:41176 [interfaces.py:finish():202] Joined network monitor
+2024-03-05 12:20:40,072 ERROR   StreamThr :41176 [internal.py:wandb_internal():174] Thread SenderThread:
+Traceback (most recent call last):
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\apis\normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 2216, in upsert_run
+    response = self.gql(
+               ^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 341, in gql
+    ret = self._retry_gql(
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\internal_util.py", line 49, in run
+    self._run()
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\internal_util.py", line 93, in _run
+    self._debounce()
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\internal.py", line 334, in _debounce
+    self._sm.debounce()
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\sender.py", line 540, in debounce
+    self._maybe_update_config(always=final)
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\sender.py", line 517, in _maybe_update_config
+    self._debounce_config()
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\sdk\internal\sender.py", line 546, in _debounce_config
+    self._api.upsert_run(
+  File "c:\Users\OJH\anaconda3\Lib\site-packages\wandb\apis\normalize.py", line 51, in wrapper
+    raise CommError(message, error)
+wandb.errors.CommError: run jonghwan_oh/Model prediction/0g8n96l6 was previously created and deleted; try a new run name (Error 409: Conflict)

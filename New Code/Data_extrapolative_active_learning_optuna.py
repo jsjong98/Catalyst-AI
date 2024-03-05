@@ -93,6 +93,13 @@ ax.title.set_text('3D Plot for Y(C2) (Contact time & Feed ratio)')
 plt.tight_layout()
 plt.show()
 # %%
+X_test.iloc[[12]]
+# %%
+X_train = pd.concat([X_train, X_test.iloc[[12]]])
+y_train = pd.concat([y_train, y_test.iloc[[12]]])
+X_test = X_test.drop(12)
+y_test = y_test.drop(12)
+# %%
 from sklearn.model_selection import cross_val_score
 import numpy as np
 from lightgbm import LGBMRegressor

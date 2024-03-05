@@ -1,0 +1,127 @@
+2024-03-05 09:57:26,487 INFO    StreamThr :23392 [internal.py:wandb_internal():86] W&B internal server running at pid: 23392, started at: 2024-03-05 09:57:26.486107
+2024-03-05 09:57:26,488 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status
+2024-03-05 09:57:26,489 INFO    WriterThread:23392 [datastore.py:open_for_write():87] open: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_095654-soc9wjry\run-soc9wjry.wandb
+2024-03-05 09:57:26,490 DEBUG   SenderThread:23392 [sender.py:send():382] send: header
+2024-03-05 09:57:26,490 DEBUG   SenderThread:23392 [sender.py:send():382] send: run
+2024-03-05 09:57:27,124 INFO    SenderThread:23392 [dir_watcher.py:__init__():211] watching files in: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_095654-soc9wjry\files
+2024-03-05 09:57:27,125 INFO    SenderThread:23392 [sender.py:_start_run_threads():1136] run started: soc9wjry with start time 1709600245.829218
+2024-03-05 09:57:27,134 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: check_version
+2024-03-05 09:57:27,134 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: check_version
+2024-03-05 09:57:27,425 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: run_start
+2024-03-05 09:57:27,448 DEBUG   HandlerThread:23392 [system_info.py:__init__():27] System info init
+2024-03-05 09:57:27,448 DEBUG   HandlerThread:23392 [system_info.py:__init__():42] System info init done
+2024-03-05 09:57:27,448 INFO    HandlerThread:23392 [system_monitor.py:start():194] Starting system monitor
+2024-03-05 09:57:27,448 INFO    SystemMonitor:23392 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-05 09:57:27,448 INFO    HandlerThread:23392 [system_monitor.py:probe():214] Collecting system info
+2024-03-05 09:57:27,453 INFO    SystemMonitor:23392 [interfaces.py:start():190] Started cpu monitoring
+2024-03-05 09:57:27,453 INFO    SystemMonitor:23392 [interfaces.py:start():190] Started disk monitoring
+2024-03-05 09:57:27,454 DEBUG   HandlerThread:23392 [system_info.py:probe():151] Probing system
+2024-03-05 09:57:27,454 INFO    SystemMonitor:23392 [interfaces.py:start():190] Started gpu monitoring
+2024-03-05 09:57:27,454 INFO    SystemMonitor:23392 [interfaces.py:start():190] Started memory monitoring
+2024-03-05 09:57:27,466 INFO    SystemMonitor:23392 [interfaces.py:start():190] Started network monitoring
+2024-03-05 09:57:27,478 DEBUG   HandlerThread:23392 [system_info.py:_probe_git():136] Probing git
+2024-03-05 09:57:27,536 DEBUG   HandlerThread:23392 [system_info.py:_probe_git():144] Probing git done
+2024-03-05 09:57:27,536 DEBUG   HandlerThread:23392 [system_info.py:probe():199] Probing system done
+2024-03-05 09:57:27,536 DEBUG   HandlerThread:23392 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-03-05T00:57:27.454276', 'startedAt': '2024-03-05T00:56:54.035587', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/jsjong98/Catalyst-AI_rev.git', 'commit': 'e663ab5cbf1d4326d0f85d88d69f5cfcefa7f6f1'}, 'email': 'jsjong98@gmail.com', 'root': 'C:/Users/OJH/OneDrive/SKKU/연구자료/Catalyst AI_rev', 'host': 'DESKTOP-5024PSV', 'username': 'OJH', 'executable': 'c:\\Users\\OJH\\anaconda3\\python.exe', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'/': {'total': 1862.1967124938965, 'used': 659.4434356689453}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 63.781253814697266}}
+2024-03-05 09:57:27,536 INFO    HandlerThread:23392 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-05 09:57:27,536 INFO    HandlerThread:23392 [system_monitor.py:probe():227] Publishing system info
+2024-03-05 09:57:27,537 DEBUG   HandlerThread:23392 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-05 09:57:28,130 INFO    Thread-31 :23392 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_095654-soc9wjry\files\conda-environment.yaml
+2024-03-05 09:57:33,432 DEBUG   HandlerThread:23392 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-05 09:57:33,433 INFO    HandlerThread:23392 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-05 09:57:33,433 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:57:33,433 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-05 09:57:33,434 DEBUG   SenderThread:23392 [sender.py:send():382] send: files
+2024-03-05 09:57:33,434 INFO    SenderThread:23392 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-05 09:57:33,442 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-05 09:57:33,443 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:57:33,443 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:57:33,443 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: python_packages
+2024-03-05 09:57:33,444 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:57:33,948 DEBUG   SenderThread:23392 [sender.py:send():382] send: telemetry
+2024-03-05 09:57:34,182 INFO    Thread-31 :23392 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_095654-soc9wjry\files\conda-environment.yaml
+2024-03-05 09:57:34,183 INFO    Thread-31 :23392 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_095654-soc9wjry\files\requirements.txt
+2024-03-05 09:57:34,183 INFO    Thread-31 :23392 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_095654-soc9wjry\files\wandb-metadata.json
+2024-03-05 09:57:34,362 INFO    wandb-upload_0:23392 [upload_job.py:push():131] Uploaded file C:\Users\OJH\AppData\Local\Temp\tmp57i9ndzywandb\mpj43gut-wandb-metadata.json
+2024-03-05 09:57:37,980 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:57:43,007 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:57:48,043 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:57:48,453 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:57:48,453 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:57:48,453 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:57:53,744 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:57:58,761 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:57:59,437 INFO    Thread-31 :23392 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\OJH\OneDrive\SKKU\연구자료\Catalyst AI_rev\New Code\wandb\run-20240305_095654-soc9wjry\files\config.yaml
+2024-03-05 09:58:03,449 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:58:03,450 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:58:03,464 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:58:04,658 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:09,708 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:14,737 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:18,464 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:58:18,464 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:58:18,465 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:58:20,704 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:25,758 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:27,477 DEBUG   SystemMonitor:23392 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-05 09:58:27,478 DEBUG   SenderThread:23392 [sender.py:send():382] send: stats
+2024-03-05 09:58:31,529 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:33,461 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:58:33,461 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:58:33,477 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:58:36,759 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:41,793 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:46,847 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:48,481 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:58:48,481 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:58:48,481 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:58:52,798 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:58:57,495 DEBUG   SenderThread:23392 [sender.py:send():382] send: stats
+2024-03-05 09:58:58,505 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:03,484 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:59:03,484 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:59:03,484 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:59:03,746 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:08,795 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:13,834 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:18,484 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:59:18,485 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:59:18,498 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:59:19,740 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:24,803 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:27,508 DEBUG   SenderThread:23392 [sender.py:send():382] send: stats
+2024-03-05 09:59:30,533 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:33,495 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:59:33,495 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:59:33,510 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:59:35,811 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:40,864 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:45,910 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:48,503 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 09:59:48,503 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 09:59:48,518 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 09:59:51,826 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:56,853 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 09:59:57,521 DEBUG   SenderThread:23392 [sender.py:send():382] send: stats
+2024-03-05 10:00:02,563 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 10:00:03,535 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 10:00:03,537 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 10:00:03,537 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 10:00:07,803 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 10:00:12,853 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 10:00:17,891 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 10:00:18,535 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 10:00:18,535 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 10:00:18,536 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 10:00:23,834 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 10:00:27,526 DEBUG   SenderThread:23392 [sender.py:send():382] send: stats
+2024-03-05 10:00:29,543 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 10:00:33,525 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 10:00:33,540 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 10:00:33,540 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status
+2024-03-05 10:00:34,840 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 10:00:39,894 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 10:00:44,942 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: status_report
+2024-03-05 10:00:48,535 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-05 10:00:48,550 DEBUG   HandlerThread:23392 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-05 10:00:48,550 DEBUG   SenderThread:23392 [sender.py:send_request():409] send_request: stop_status

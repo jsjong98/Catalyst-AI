@@ -1,0 +1,212 @@
+0
+1
+2
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:51] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:45: `gpu_id` is deprecated since2.0.0, use `device` instead. E.g. device=cpu/cuda/cuda:0
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:51] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:52] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:52] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:58: Falling back to prediction using DMatrix due to mismatched devices. This might lead to higher memory usage and slower performance. XGBoost is running on: cuda:0, while the input data is on: cpu.
+Potential solutions:
+- Use a data structure that matches the device ordinal in the booster.
+- Set the device for booster before call to inplace_predict.
+This warning will only be shown once.
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:52] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:52] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+3
+4
+5
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:53] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:53] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:53] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:54] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:54] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+6
+7
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:55] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:55] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:56] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:56] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+8
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:58] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:58] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+9
+10
+11
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:59] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:17:59] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:00] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:00] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:00] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+12
+13
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:01] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:01] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:02] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:02] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+14
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:04] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:04] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+15
+16
+17
+18
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:05] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:05] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:06] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:06] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:06] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:06] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:07] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:07] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+19
+20
+21
+22
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:07] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:07] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:08] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:08] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+23
+24
+25
+26
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:09] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:09] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:09] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:10] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:10] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:10] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+27
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:11] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:11] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+28
+29
+30
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:13] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:13] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:14] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:14] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:14] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+31
+32
+33
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:15] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:15] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:15] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:16] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:16] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+c:\Users\OJH\anaconda3\Lib\site-packages\xgboost\core.py:160: UserWarning: [12:18:17] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0b3782d1791676daf-1\xgboost\xgboost-ci-windows\src\common\error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"

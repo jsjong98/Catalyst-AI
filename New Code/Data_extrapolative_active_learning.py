@@ -93,6 +93,12 @@ ax.title.set_text('3D Plot for Y(C2) (Contact time & Feed ratio)')
 plt.tight_layout()
 plt.show()
 # %%
+X_train = pd.concat([X_train, X_test.iloc[[12]]])
+y_train = pd.concat([y_train, y_test.iloc[[12]]])
+X_test = X_test.drop(12)
+y_test = y_test.drop(12)
+
+# %%
 from sklearn.model_selection import cross_val_score
 import numpy as np
 from lightgbm import LGBMRegressor
@@ -519,4 +525,6 @@ mlp_predictions_df = pd.DataFrame(mlp_predictions_list).T
 predictions_df = pd.concat([knn_predictions_df, svr_predictions_df, gpr_predictions_df, dtr_predictions_df, rfr_predictions_df, xgb_predictions_df, lgbm_predictions_df, etr_predictions_df, cb_predictions_df, mlp_predictions_df], axis=1)
 predictions_df.columns = ['K-NN', 'SVR', 'GPR', 'DTR', 'RFR', 'XGB', 'LGBM', 'ETR', 'CB', 'MLP']
 predictions_df
+# %%
+predictions_df.to_csv('predictions_2.csv')
 # %%
